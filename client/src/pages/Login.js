@@ -49,7 +49,7 @@ const Login = () => {
 
         <form className="login-form" onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>Email Address</label>
+            <label style={{color: 'white'}}>Email Address</label>
             <input
               type="email"
               value={email}
@@ -59,7 +59,7 @@ const Login = () => {
             />
           </div>
           <div className="form-group">
-            <label>Password</label>
+            <label style={{color: 'white'}}>Password</label>
             <input
               type="password"
               value={password}
